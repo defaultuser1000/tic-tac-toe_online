@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Кркстики нолики</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div id="game-block">
+      <div id="field">
+
+      </div>
+      <div class="reset-button">
+        <button id="reset" type="button" onclick="myFunction()">Reset</button>
+      </div>
+    </div>
+
+    <p id="demo" onclick="myFunction()">Click me to change my text color.</p>
+
+<script>
+function myFunction() {
+    document.getElementById("cell").style.color = "red";
+    console.log(document.getElementById("cell").style.color);
+}
+</script>
+  </body>
+</html>
