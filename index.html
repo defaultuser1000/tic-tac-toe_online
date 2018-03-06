@@ -31,11 +31,14 @@
 
     <div class="login-form1">
       <form class="form-signin login-form">
-        <h2 class="form-signin-heading login-form-heading">Enter the game</h2>
+        <div class="login-form-heading">
+          <h2 class="form-signin-heading form-heading-enter">Enter the game</h2>
+          <h2 class="form-signin-heading form-heading-lang"><a href="#">EN</a> / <a href="#">RU</a></h2>
+        </div>
         <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+        <input type="email" id="inputEmail" class="form-control form-email" placeholder="Email" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" id="inputPassword" class="form-control form-password" placeholder="Password" required>
         <div class="form-footer">
           <label><input type="checkbox" value="remember-me">Remember me</label>
           <button class="btn btn-lg login-btn" type="submit">Sign in</button>
