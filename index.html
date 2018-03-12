@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Кркстики нолики</title>
+    <title>Крестики нолики</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--<script src="js/main.js"></script>-->
@@ -32,20 +32,46 @@
     <div class="login-form1">
       <form class="form-signin login-form">
         <div class="login-form-heading">
-          <h2 class="form-signin-heading form-heading-enter">Enter the game</h2>
-          <h2 class="form-signin-heading form-heading-lang"><a href="#">EN</a> / <a href="#">RU</a></h2>
+          <h2 class="form-signin-heading form-heading-enter pull-left">Enter the game</h2>
+          <h2 class="form-signin-heading form-heading-lang pull-right"><a class="localEN" href="#">EN</a> / <a class="localRU" href="#">RU</a></h2>
         </div>
-        <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" class="form-control form-email" placeholder="Email" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control form-password" placeholder="Password" required>
-        <div class="form-footer">
-          <label><input type="checkbox" value="remember-me">Remember me</label>
-          <button class="btn btn-lg login-btn" type="submit">Sign in</button>
-        </div>
+        <div class="acc-data">
+          <label for="inputEmail" class="sr-only">Email</label>
+          <input type="email" id="inputEmail" class="form-control form-email" placeholder="Email" required autofocus>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control form-password" placeholder="Password" required>
+          <div class="container col-md-4 checkbox mb-3 form-footer">
+            <div class="form-row">
+              <label class="pull-left"><input type="checkbox" value="remember-me">Remember me</label>
+            </div>
+            <div class="form-row">
+              <a class="pull-left" href="#">Forgot Password</a>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-lg btn-block login-btn pull-right" type="submit">Sign in</button>
+            </div>
+          </div>
 
+
+        </div>
       </form>
     </div>
+
+
+    <!--div class="row equal">
+      <div class="col-md-4">
+        <p>Строка 1</p>
+        <p>Строка 2</p>
+        <p>Строка 3</p>
+      </div>
+      <div class="col-md-4">
+        <p>Строка 4</p>
+        <p>Строка 5</p>
+      </div>
+      <div class="col-md-4">
+        <p>Строка 6</p>
+      </div>
+    </div-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

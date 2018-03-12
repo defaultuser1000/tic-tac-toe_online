@@ -57,6 +57,7 @@ hr{
 }
 
 .login-form{
+  background-color: #ccc;
   font-family: 'Open Sans', sans-serif;
   max-width: 550px;
   height: 350px;
@@ -81,6 +82,7 @@ hr{
   margin-bottom: 50px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  height: 60px;
 }
 
 .form-heading-enter{
@@ -95,8 +97,14 @@ hr{
   margin-right: 25px;
 }
 
+.acc-data{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .form-email{
-  max-width: 50%;
+  /*max-width: 50%;*/
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -104,7 +112,7 @@ hr{
 }
 
 .form-password{
-  max-width: 50%;
+  /*max-width: 50%;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
@@ -112,13 +120,36 @@ hr{
 }
 
 .form-footer{
-  max-width: 50%;
+  /*max-width: 50%;*/
+  background-color: #ccc;
+  border-width: 3px;
   margin-left: auto;
+  margin-right: auto;
+}
+
+.form-remember-me{
+  margin-left: 25px;
   margin-right: auto;
 }
 
 .login-btn{
   background-color: #729799;
-
+  margin-left: auto;
   margin-right: auto;
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
 }
